@@ -1,0 +1,12 @@
+deb <%= node['ubuntu']['mirror_site_url'] %> <%= @code_name %> main restricted universe multiverse
+deb <%= node['ubuntu']['mirror_site_url'] %> <%= @code_name %>-security main restricted universe multiverse
+deb <%= node['ubuntu']['mirror_site_url'] %> <%= @code_name %>-updates main restricted universe multiverse
+deb <%= node['ubuntu']['mirror_site_url'] %> <%= @code_name %>-proposed main restricted universe multiverse
+deb <%= node['ubuntu']['mirror_site_url'] %> <%= @code_name %>-backports main restricted universe multiverse
+<% if node['ubuntu']['need_deb_src'] -%>
+deb-src <%= node['ubuntu']['mirror_site_url'] %> <%= @code_name %> main restricted universe multiverse
+deb-src <%= node['ubuntu']['mirror_site_url'] %> <%= @code_name %>-security main restricted universe multiverse
+deb-src <%= node['ubuntu']['mirror_site_url'] %> <%= @code_name %>-updates main restricted universe multiverse
+deb-src <%= node['ubuntu']['mirror_site_url'] %> <%= @code_name %>-proposed main restricted universe multiverse
+deb-src <%= node['ubuntu']['mirror_site_url'] %> <%= @code_name %>-backports main restricted universe multiverse
+<% end -%>
