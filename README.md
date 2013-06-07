@@ -12,11 +12,11 @@ Requirements
 
     * hardy(8.04)
     * lucid(10.04)
-    * maverick(10.10)
     * natty(11.04)
     * oneiric(11.10)
     * precise(12.04)
     * quantal(12.10)
+    * raring(13.04)
 
 Here is supported until.
 

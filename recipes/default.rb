@@ -28,11 +28,11 @@ end
 support_ubuntu_version = {
   '8.04' => 'hardy',
   '10.04' => 'lucid',
-  '10.10' => 'maverick',
   '11.04' => 'natty',
   '11.10' => 'oneiric',
   '12.04' => 'precise',
-  '12.10' => 'quantal'
+  '12.10' => 'quantal',
+  '13.04' => 'raring'
 }
 template '/etc/apt/sources.list' do
   owner "root"
