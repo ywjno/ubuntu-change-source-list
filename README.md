@@ -10,13 +10,12 @@ Requirements
 
 * Ubuntu
 
-    * hardy(8.04)
     * lucid(10.04)
-    * natty(11.04)
     * oneiric(11.10)
     * precise(12.04)
     * quantal(12.10)
     * raring(13.04)
+    * saucy(13.10)
 
 Here is supported until.
 
