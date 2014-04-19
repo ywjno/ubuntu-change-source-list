@@ -17,7 +17,7 @@
 # limitations under the License.
 #
 
-default['ubuntu']['mirror_site_url'] = 'http://mirrors.163.com/ubuntu/'
-default['ubuntu']['version'] = '12.04'
+default['ubuntu']['mirror_site_url'] = 'http://mirrors.ustc.edu.cn/ubuntu/'
+default['ubuntu']['version'] = '14.04'
 default['ubuntu']['need_deb_src'] = false
 default['ubuntu']['need_update'] = false

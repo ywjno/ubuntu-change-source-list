@@ -27,11 +27,10 @@ end
 
 support_ubuntu_version = {
   '10.04' => 'lucid',
-  '11.10' => 'oneiric',
   '12.04' => 'precise',
   '12.10' => 'quantal',
-  '13.04' => 'raring',
-  '13.10' => 'saucy'
+  '13.10' => 'saucy',
+  '14.04' => 'trusty'
 }
 
 template '/etc/apt/sources.list' do
