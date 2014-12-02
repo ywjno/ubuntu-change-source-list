@@ -1,3 +1,13 @@
+## 0.1410.1:
+
+* update to support 14.10 version
+* delete 12.10 version because that are not supported
+
+## 0.1404.1:
+
+* update to support 14.04 LTS version
+* delete 11.10 and 13.04 version because that are not supported
+
 ## 0.1310.1:
 
 * update to support 13.10 version

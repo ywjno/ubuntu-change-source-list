@@ -12,9 +12,9 @@ Requirements
 
     * lucid(10.04)
     * precise(12.04)
-    * quantal(12.10)
     * saucy(13.10)
     * trusty(14.04)
+    * utopic(14.10)
 
 Here is supported until.
 
