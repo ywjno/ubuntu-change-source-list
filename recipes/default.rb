@@ -26,11 +26,10 @@ execute "back up old sources list" do
 end
 
 support_ubuntu_version = {
-  '10.04' => 'lucid',
   '12.04' => 'precise',
-  '13.10' => 'saucy',
   '14.04' => 'trusty',
-  '14.10' => 'utopic'
+  '14.10' => 'utopic',
+  '15.04' => 'vivid'
 }
 
 template '/etc/apt/sources.list' do
