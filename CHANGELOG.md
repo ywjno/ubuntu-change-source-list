@@ -1,3 +1,8 @@
+## 0.1604.1:
+
+* update to support 16.04 LTS version
+* delete 14.10 and 15.04 version because that are not supported
+
 ## 0.1504.1:
 
 * update to support 15.04 version
