@@ -12,8 +12,8 @@ Requirements
 
     * precise(12.04)
     * trusty(14.04)
-    * wily(15.10)
     * xenial(16.04)
+    * yakkety(16.10)
 
 Here is supported until.
 
