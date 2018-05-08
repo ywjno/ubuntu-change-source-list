@@ -12,8 +12,8 @@ Requirements
 
     * trusty(14.04)
     * xenial(16.04)
-    * yakkety(16.10)
     * zesty(17.04)
+    * artful(17.10)
 
 Here is supported until.
 
