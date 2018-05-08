@@ -10,10 +10,10 @@ Requirements
 
 * Ubuntu
 
-    * precise(12.04)
     * trusty(14.04)
     * xenial(16.04)
     * yakkety(16.10)
+    * zesty(17.04)
 
 Here is supported until.
 

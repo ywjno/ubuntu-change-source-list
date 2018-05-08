@@ -1,3 +1,8 @@
+## 0.1704.1:
+
+* update to support 17.04 version
+* delete 12.04 version because that are not supported
+
 ## 0.1610.1:
 
 * update to support 16.10 version
