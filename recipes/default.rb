@@ -28,8 +28,8 @@ end
 support_ubuntu_version = {
   '14.04' => 'trusty',
   '16.04' => 'xenial',
-  '17.04' => 'zesty',
-  '17.10' => 'artful'
+  '17.10' => 'artful',
+  '18.04' => 'bionic'
 }
 
 template '/etc/apt/sources.list' do
@@ -38,7 +38,7 @@ template '/etc/apt/sources.list' do
   mode "0755"
   source "sources.list.erb"
   variables(
-    :code_name => support_ubuntu_version[node['ubuntu']['version']] || 'xenial'
+    :code_name => support_ubuntu_version[node['ubuntu']['version']] || 'bionic'
   )
 end
 

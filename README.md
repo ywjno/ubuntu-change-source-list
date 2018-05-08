@@ -12,8 +12,8 @@ Requirements
 
     * trusty(14.04)
     * xenial(16.04)
-    * zesty(17.04)
     * artful(17.10)
+    * bionic(18.04)
 
 Here is supported until.
 
@@ -23,7 +23,7 @@ Attributes
 See `attributes/default.rb` for default values.
 
 * `node["ubuntu"]["mirror_site_url"]` - mirror url, default `http://mirrors.ustc.edu.cn/ubuntu/`.
-* `node["ubuntu"]["version"]` - used ubuntu version, default latest LTS version `16.04`.
+* `node["ubuntu"]["version"]` - used ubuntu version, default latest LTS version `18.04`.
 * `node["ubuntu"]["need_deb_src"]` - add deb-src url in source list or not, default `false`.
 * `node["ubuntu"]["need_update"]` - run `apt-get update` command after the change, default `false`.
 
