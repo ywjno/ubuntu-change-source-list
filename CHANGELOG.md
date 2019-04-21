@@ -1,3 +1,8 @@
+## 0.1810.1:
+
+* update to support 18.10 version
+* delete 17.10 version because that are not supported
+
 ## 0.1804.1:
 
 * update to support 18.04 LTS version

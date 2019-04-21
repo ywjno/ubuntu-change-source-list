@@ -12,8 +12,8 @@ Requirements
 
     * trusty(14.04)
     * xenial(16.04)
-    * artful(17.10)
     * bionic(18.04)
+    * cosmic(18.10)
 
 Here is supported until.
 

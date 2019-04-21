@@ -28,8 +28,8 @@ end
 support_ubuntu_version = {
   '14.04' => 'trusty',
   '16.04' => 'xenial',
-  '17.10' => 'artful',
-  '18.04' => 'bionic'
+  '18.04' => 'bionic',
+  '18.10' => 'cosmic'
 }
 
 template '/etc/apt/sources.list' do
