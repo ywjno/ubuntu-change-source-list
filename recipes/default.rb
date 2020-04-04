@@ -29,8 +29,8 @@ support_ubuntu_version = {
   '14.04' => 'trusty',
   '16.04' => 'xenial',
   '18.04' => 'bionic',
-  '18.10' => 'cosmic',
-  '19.04' => 'disco'
+  '19.04' => 'disco',
+  '19.10' => 'eoan'
 }
 
 template '/etc/apt/sources.list' do

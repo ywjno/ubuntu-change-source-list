@@ -1,3 +1,8 @@
+## 0.1910.1:
+
+* update to support 19.10 version
+* delete 18.10 version because that are not supported
+
 ## 0.1904.1:
 
 * update to support 19.04 version

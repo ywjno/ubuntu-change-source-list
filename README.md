@@ -13,8 +13,8 @@ Requirements
     * trusty(14.04)
     * xenial(16.04)
     * bionic(18.04)
-    * cosmic(18.10)
     * disco(19.04)
+    * eoan(19.10)
 
 Here is supported until.
 
