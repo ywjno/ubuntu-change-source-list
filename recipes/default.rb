@@ -26,11 +26,10 @@ execute "back up old sources list" do
 end
 
 support_ubuntu_version = {
-  '14.04' => 'trusty',
   '16.04' => 'xenial',
   '18.04' => 'bionic',
-  '19.04' => 'disco',
-  '19.10' => 'eoan'
+  '19.10' => 'eoan',
+  '20.04' => 'focal'
 }
 
 template '/etc/apt/sources.list' do
@@ -39,7 +38,7 @@ template '/etc/apt/sources.list' do
   mode "0755"
   source "sources.list.erb"
   variables(
-    :code_name => support_ubuntu_version[node['ubuntu']['version']] || 'bionic'
+    :code_name => support_ubuntu_version[node['ubuntu']['version']] || 'focal'
   )
 end
 

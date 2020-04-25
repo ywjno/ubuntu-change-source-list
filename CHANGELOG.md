@@ -1,3 +1,8 @@
+## 0.2004.1:
+
+* update to support 20.04 LTS version
+* delete 19.04 version because that are not supported
+
 ## 0.1910.1:
 
 * update to support 19.10 version

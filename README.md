@@ -10,11 +10,10 @@ Requirements
 
 * Ubuntu
 
-    * trusty(14.04)
     * xenial(16.04)
     * bionic(18.04)
-    * disco(19.04)
     * eoan(19.10)
+    * focal(20.04)
 
 Here is supported until.
 
@@ -24,7 +23,7 @@ Attributes
 See `attributes/default.rb` for default values.
 
 * `node["ubuntu"]["mirror_site_url"]` - mirror url, default `http://mirrors.ustc.edu.cn/ubuntu/`.
-* `node["ubuntu"]["version"]` - used ubuntu version, default latest LTS version `18.04`.
+* `node["ubuntu"]["version"]` - used ubuntu version, default latest LTS version `20.04`.
 * `node["ubuntu"]["need_deb_src"]` - add deb-src url in source list or not, default `false`.
 * `node["ubuntu"]["need_update"]` - run `apt-get update` command after the change, default `false`.
 

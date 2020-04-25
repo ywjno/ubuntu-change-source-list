@@ -18,6 +18,6 @@
 #
 
 default['ubuntu']['mirror_site_url'] = 'http://mirrors.ustc.edu.cn/ubuntu/'
-default['ubuntu']['version'] = '18.04'
+default['ubuntu']['version'] = '20.04'
 default['ubuntu']['need_deb_src'] = false
 default['ubuntu']['need_update'] = false
