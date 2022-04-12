@@ -12,8 +12,8 @@ Requirements
 
     * xenial(16.04)
     * bionic(18.04)
-    * eoan(19.10)
     * focal(20.04)
+    * gorilla(20.10)
 
 Here is supported until.
 

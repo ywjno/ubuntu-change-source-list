@@ -28,8 +28,8 @@ end
 support_ubuntu_version = {
   '16.04' => 'xenial',
   '18.04' => 'bionic',
-  '19.10' => 'eoan',
-  '20.04' => 'focal'
+  '20.04' => 'focal',
+  '20.10' => 'gorilla'
 }
 
 template '/etc/apt/sources.list' do
