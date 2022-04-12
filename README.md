@@ -10,10 +10,10 @@ Requirements
 
 * Ubuntu
 
-    * xenial(16.04)
     * bionic(18.04)
     * focal(20.04)
     * gorilla(20.10)
+    * hippo(21.04)
 
 Here is supported until.
 
