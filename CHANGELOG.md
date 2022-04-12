@@ -1,3 +1,8 @@
+## 0.2110.1:
+
+* update to support 21.10 version
+* delete 20.10 version because that are not supported
+
 ## 0.2104.1:
 
 * update to support 21.04 version

@@ -28,8 +28,8 @@ end
 support_ubuntu_version = {
   '18.04' => 'bionic',
   '20.04' => 'focal',
-  '20.10' => 'gorilla',
-  '21.04' => 'hippo'
+  '21.04' => 'hippo',
+  '21.10' => 'indri'
 }
 
 template '/etc/apt/sources.list' do

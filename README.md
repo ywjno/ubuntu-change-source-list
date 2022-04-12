@@ -12,8 +12,8 @@ Requirements
 
     * bionic(18.04)
     * focal(20.04)
-    * gorilla(20.10)
     * hippo(21.04)
+    * indri(21.10)
 
 Here is supported until.
 
