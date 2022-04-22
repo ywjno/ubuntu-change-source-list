@@ -12,8 +12,8 @@ Requirements
 
     * bionic(18.04)
     * focal(20.04)
-    * hippo(21.04)
-    * indri(21.10)
+    * impish(21.10)
+    * jammy(22.04)
 
 Here is supported until.
 
@@ -23,7 +23,7 @@ Attributes
 See `attributes/default.rb` for default values.
 
 * `node["ubuntu"]["mirror_site_url"]` - mirror url, default `http://mirrors.ustc.edu.cn/ubuntu/`.
-* `node["ubuntu"]["version"]` - used ubuntu version, default latest LTS version `20.04`.
+* `node["ubuntu"]["version"]` - used ubuntu version, default latest LTS version `22.04`.
 * `node["ubuntu"]["need_deb_src"]` - add deb-src url in source list or not, default `false`.
 * `node["ubuntu"]["need_update"]` - run `apt-get update` command after the change, default `false`.
 
