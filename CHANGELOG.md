@@ -1,3 +1,8 @@
+## 0.2310.1:
+
+* update to support 23.10 version
+* delete 22.10 version because that are not supported
+
 ## 0.2304.1:
 
 * update to support 23.04 version
