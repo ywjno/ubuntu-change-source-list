@@ -12,8 +12,8 @@ Requirements
 
     * bionic(18.04)
     * focal(20.04)
-    * impish(21.10)
     * jammy(22.04)
+    * kinetic(22.10)
 
 Here is supported until.
 

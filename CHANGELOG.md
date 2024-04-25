@@ -1,3 +1,8 @@
+## 0.2210.1:
+
+* update to support 22.04 LTS version
+* delete 21.10 version because that are not supported
+
 ## 0.2204.1:
 
 * update to support 22.04 LTS version
