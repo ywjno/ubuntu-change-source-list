@@ -1,6 +1,11 @@
+## 0.2304.1:
+
+* update to support 23.04 version
+* delete 18.04 LTS version because that are not supported(thx)
+
 ## 0.2210.1:
 
-* update to support 22.04 LTS version
+* update to support 22.10 version
 * delete 21.10 version because that are not supported
 
 ## 0.2204.1:

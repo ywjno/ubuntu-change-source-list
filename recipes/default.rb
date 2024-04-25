@@ -26,10 +26,10 @@ execute "back up old sources list" do
 end
 
 support_ubuntu_version = {
-  '18.04' => 'bionic',
   '20.04' => 'focal',
   '22.04' => 'jammy',
-  '22.10' => 'kinetic'
+  '22.10' => 'kinetic',
+  '23.04' => 'lunar'
 }
 
 template '/etc/apt/sources.list' do
