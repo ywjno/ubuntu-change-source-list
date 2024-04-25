@@ -28,8 +28,8 @@ end
 support_ubuntu_version = {
   '20.04' => 'focal',
   '22.04' => 'jammy',
-  '23.04' => 'lunar',
-  '23.10' => 'mantic'
+  '23.10' => 'mantic',
+  '24.04' => 'noble'
 }
 
 template '/etc/apt/sources.list' do
