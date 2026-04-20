@@ -1,3 +1,8 @@
+## 0.2410.1:
+
+* update to support 24.10 version
+* delete 23.10 version because that are not supported
+
 ## 0.2404.1:
 
 * update to support 24.04 LTS version
